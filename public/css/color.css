@@ -1,0 +1,76 @@
+header div div, main > div > .container > div {
+  cursor: pointer;
+  user-select: none; }
+
+html, body {
+  font-family: 'Saira', sans-serif; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 1200px;
+  background: #54ACD2; }
+
+header {
+  background: #B8312F;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 15px 0 #454545; }
+  header h1 {
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 3px black;
+    color: #eaeaea; }
+  header div {
+    text-align: center; }
+    header div div {
+      margin-top: 2%;
+      padding-bottom: 2%;
+      padding-right: 5%;
+      padding-left: 5%;
+      border-radius: 25px;
+      height: 20%;
+      display: inline-block;
+      background: #eaeaea;
+      box-shadow: 0 0 15px 0 #454545; }
+
+#rgb-value {
+  color: #eaeaea;
+  text-align: center;
+  text-shadow: 2px 2px 3px black; }
+  #rgb-value::after {
+    clear: both;
+    display: table;
+    content: ''; }
+
+main {
+  background: inherit;
+  display: flex;
+  justify-content: center; }
+  main > div {
+    background: #FEFEFE;
+    box-shadow: 0 0 15px 0 #454545; }
+    main > div > .container {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; }
+      main > div > .container > div {
+        float: left;
+        width: 200px;
+        height: 200px;
+        background: blue;
+        display: none; }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em; }
+
+  main div .container {
+    width: 100%; }
+    main div .container div {
+      width: 100px;
+      height: 100px; } }
+
+/*# sourceMappingURL=color.css.map */
